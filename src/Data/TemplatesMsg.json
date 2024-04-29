@@ -1,0 +1,122 @@
+[
+  {
+    "messaging_product": "whatsapp",
+    "to": "RECIPIENT_NUMBER",
+    "type": "template",
+    "template": {
+      "name": "text_only_template",
+      "language": {
+        "code": "en"
+      },
+      "components": [
+        {
+          "type": "text",
+          "text": "Your text message goes here."
+        }
+      ]
+    }
+  },
+  {
+    "messaging_product": "whatsapp",
+    "to": "RECIPIENT_NUMBER",
+    "type": "template",
+    "template": {
+      "name": "video_template",
+      "language": {
+        "code": "en"
+      },
+      "components": [
+        {
+          "type": "video",
+          "video": {
+            "link": "https://www.example.com/your-video.mp4"
+          }
+        },
+        {
+          "type": "text",
+          "text": "{variable1}"
+        },
+        {
+          "type": "text",
+          "text": "{variable2}"
+        }
+      ]
+    }
+  },
+  {
+    "messaging_product": "whatsapp",
+    "to": "RECIPIENT_NUMBER",
+    "type": "template",
+    "template": {
+      "name": "pdf_template",
+      "language": {
+        "code": "en"
+      },
+      "components": [
+        {
+          "type": "file",
+          "file": {
+            "link": "https://www.example.com/your-file.pdf"
+          }
+        },
+        {
+          "type": "text",
+          "text": "{variable1}"
+        },
+        {
+          "type": "text",
+          "text": "{variable2}"
+        }
+      ]
+    }
+  },
+  {
+    "messaging_product": "whatsapp",
+    "to": "RECIPIENT_NUMBER",
+    "type": "template",
+    "template": {
+      "name": "pdf_template",
+      "language": {
+        "code": "en"
+      },
+      "components": [
+        {
+          "type": "image",
+          "image": {
+            "link": "https://www.example.com/your-image.png"
+          }
+        },
+        {
+          "type": "text",
+          "text": "{variable1}"
+        },
+        {
+          "type": "text",
+          "text": "{variable2}"
+        }
+      ]
+    }
+  },
+  {
+    "messaging_product": "whatsapp",
+    "to": "RECIPIENT_NUMBER",
+    "type": "template",
+    "template": {
+      "name": "your_template_name",
+      "language": {
+        "code": "en"
+      },
+      "components": [
+        {
+          "type": "text",
+          "text": "{variable1}"
+        },
+        {
+          "type": "text",
+          "text": "{variable2}"
+        }
+      ]
+    }
+  }
+  
+]
